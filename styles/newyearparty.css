@@ -1,34 +1,35 @@
-body{
+body {
     font-family: 'open Sans', sans-serif;
 }
+
 header {
     background-color: #FFF;
-    
+
 }
 
 .bannerpic {
     width: 1320px;
-    height:600px;
+    height: 600px;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
     motion-rotation: 0;
     /* background: url('../Images/BannerImage.png'); */
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/BannerImage.png');
-     }
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/BannerImage.png');
+}
 
 .banner-text1 {
-color: #FFFFFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-/* justify-content: space-between; */
-margin-top: 140px;
-padding: 80px 30px 0px 160px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* justify-content: space-between; */
+    margin-top: 140px;
+    padding: 80px 30px 0px 160px;
 }
 
 .banner-text2 {
@@ -39,43 +40,43 @@ padding: 80px 30px 0px 160px;
     font-style: normal;
     font-weight: 900;
     line-height: 85px;
-   
+
     /* padding: 0px 10px 0px 50px; */
 }
 
-.second-container{
-    
-    
-}
-.discount-off{
-color: #FF0000;
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
+.second-container {}
+
+.discount-off {
+    color: #FF0000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
 
 }
-.holiday-deals-text{
-color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-/* line-height: normal; */
-}
-.all-categories{
-color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+
+.holiday-deals-text {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: normal; */
 }
 
-.body-image{
+.all-categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.body-image {
     /* background-color: red; */
     margin-left: 200px;
     margin-top: 0;
@@ -85,104 +86,159 @@ line-height: normal;
     align-items: center;
     width: 50%;
 }
+
 /* Start new content here */
-.welcome-cont{
+.welcome-cont {
     max-width: 1040px;
     height: 600px;
-    background-image: url('../Images/Vectorrr.png') ;
+    background-image: url('../Images/Vectorrr.png');
     display: flex;
 }
 
-.welcome-party-content{
-max-width: 1040px;
-background-image: url('../Images/Group70.png');
-background-repeat: no-repeat;
-background-position: bottom right, top left;
+.welcome-party-content {
+    max-width: 1040px;
+    background-image: url('../Images/Group70.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
 }
-.wecome-party{
-color: #FFF;
-width: 642px;
-font-family: Merriweather;
-font-size: 40px;
-font-style: normal;
-font-weight: 900;
-line-height: 88px;
-/* letter-spacing: 4.04px; */
-margin-left: 80px;
-row-gap: 5px;
+
+.wecome-party {
+    color: #FFF;
+    width: 642px;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* letter-spacing: 4.04px; */
+    margin-left: 80px;
+    row-gap: 5px;
 
 }
-.midnight-body{
+
+.midnight-body {
     color: rgba(255, 255, 255, 0.80);
-margin-left: 30px;
+    margin-left: 30px;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; 
+    line-height: 30px;
     margin-left: 80px;
-row-gap: 5px;
-gap: 0;
+    row-gap: 5px;
+    gap: 0;
 }
-.join-now{
+
+.join-now {
     color: #FFF;
-margin-left: 20px;
-     font-family: Inter;
+    margin-left: 20px;
+    font-family: Inter;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
     margin-left: 80px;
-row-gap: 5px;
+    row-gap: 5px;
 
 }
+
 main {
     max-width: 1040px;
     margin: auto;
     align-items: center;
 }
 
-.new-park-hotel{
+.new-park-hotel {
     width: 500px;
     height: 300px;
     /* gap: 200px; */
-    color:#F00;
+    color: #F00;
     text-align: center;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     text-transform: capitalize;
-  
-}
- 
-.joinnow{
-display: inline-flex;
-padding: 16px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 8px;
-background: #F00
+
 }
 
-.discount-offer{
+.joinnow {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00
+}
+
+.discount-offer {
     display: inline;
     gap: 24px;
 }
 
-.holiday-pic{
+.holiday-pic {
     display: flex;
-     background: url('../Images/Rectangle1.png'); 
+    background: url('../Images/Rectangle1.png');
     /* background: url('../Images/Rectangle1.png');
     background: url('../Images/Rectangle1.png');
     background: url('../Images/Rectangle1.png'); */
 
     background-repeat: no-repeat;
     background-position: bottom right;
-    
 }
+
+.awesome-portfolio {
+    display: flex;
+    width: 30%;
+    padding: 5px;
+
+}
+
+.awsome-portfolio-pic {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
 .text-primary {
     color: #FD6E0A;
+}
+
+.footer-conainer {
+    display: flex;
+    gap: 100px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin-top: 100px;
+    padding: 130px 200px;
+    width: 800px;
+    height: 220px;
+    align-items: center;
+}
+
+.Subscribe {
+    margin-right: 25px;
+    align-items: center;
+
+}
+
+.footer-unsubscribe-container {
+    gap: 100px;
+    display: block;
+    background-color: #070211;
+    margin-top: 100px;
+    padding: 130px 200px;
+    width: 800px;
+    height: 220px;
+    align-items: center;
+    color: #FFF;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+
 }
