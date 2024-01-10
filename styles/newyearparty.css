@@ -1,28 +1,21 @@
-/*common share styles*/
-/* * {
-    margin: 0;
-    padding: 0;
-} */
-
+body{
+    font-family: 'open Sans', sans-serif;
+}
 header {
     background-color: #FFF;
     
-}
-.container {
-    width: 100px;
-    height:100px;
-       
 }
 
 .bannerpic {
     width: 1320px;
     height:600px;
-    margin-top: 50px;
-    margin-left: 300px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 16px;
     motion-rotation: 0;
-    background: url('../Images/BannerImage.png');
-    background: linear-gradient #070211, #07021100;
+    /* background: url('../Images/BannerImage.png'); */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/BannerImage.png');
      }
 
 .banner-text1 {
@@ -33,10 +26,9 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-justify-content: space-between;
-margin-top: 100px;
-
-padding: 130px 30px 0px 150px;
+/* justify-content: space-between; */
+margin-top: 140px;
+padding: 80px 30px 0px 160px;
 }
 
 .banner-text2 {
@@ -46,12 +38,14 @@ padding: 130px 30px 0px 150px;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: 95px;
+    line-height: 85px;
+   
     /* padding: 0px 10px 0px 50px; */
 }
 
 .second-container{
- gap: 10px;
+    
+    
 }
 .discount-off{
 color: #FF0000;
@@ -69,7 +63,7 @@ font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
-line-height: normal;
+/* line-height: normal; */
 }
 .all-categories{
 color: #070211;
@@ -81,9 +75,6 @@ font-weight: 700;
 line-height: normal;
 }
 
-/* .image{
-    gap: 10px;
-} */
 .body-image{
     /* background-color: red; */
     margin-left: 200px;
@@ -116,8 +107,9 @@ font-size: 40px;
 font-style: normal;
 font-weight: 900;
 line-height: 88px;
-letter-spacing: 4.04px;
-margin-left: 20px;
+/* letter-spacing: 4.04px; */
+margin-left: 80px;
+row-gap: 5px;
 
 }
 .midnight-body{
@@ -128,16 +120,21 @@ margin-left: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; 
+    margin-left: 80px;
+row-gap: 5px;
+gap: 0;
 }
 .join-now{
     color: #FFF;
 margin-left: 20px;
      font-family: Inter;
-    font-size: 15px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    margin-left: 80px;
+row-gap: 5px;
 
 }
 main {
@@ -147,6 +144,9 @@ main {
 }
 
 .new-park-hotel{
+    width: 500px;
+    height: 300px;
+    /* gap: 200px; */
     color:#F00;
     text-align: center;
     font-family: Inter;
@@ -156,10 +156,9 @@ main {
     text-transform: capitalize;
   
 }
-   
-
+ 
 .joinnow{
-    display: inline-flex;
+display: inline-flex;
 padding: 16px 32px;
 justify-content: center;
 align-items: center;
@@ -175,10 +174,10 @@ background: #F00
 
 .holiday-pic{
     display: flex;
+     background: url('../Images/Rectangle1.png'); 
+    /* background: url('../Images/Rectangle1.png');
     background: url('../Images/Rectangle1.png');
-    background: url('../Images/Rectangle1.png');
-    background: url('../Images/Rectangle1.png');
-    background: url('../Images/Rectangle1.png');
+    background: url('../Images/Rectangle1.png'); */
 
     background-repeat: no-repeat;
     background-position: bottom right;
