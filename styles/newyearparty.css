@@ -94,15 +94,19 @@ line-height: normal;
     align-items: center;
     width: 50%;
 }
-
+/* Start new content here */
+.welcome-cont{
+    max-width: 1040px;
+    height: 600px;
+    background-image: url('../Images/Vectorrr.png') ;
+    display: flex;
+}
 
 .welcome-party-content{
-    background: url('../Images/Vectorrr.png');
-    /* background-image: url('../Images/Group70.png'); */
-width: 1320px;
-height: 600px;
-align-items: center;
-display: block;
+max-width: 1040px;
+background-image: url('../Images/Group70.png');
+background-repeat: no-repeat;
+background-position: bottom right, top left;
 }
 .wecome-party{
 color: #FFF;
@@ -164,13 +168,6 @@ border-radius: 8px;
 background: #F00
 }
 
-/* .place{
-    width: 1320;
-    height: 463;
-        font-size: 45px;
-    font-weight: 800;
-} */
-
 .discount-offer{
     display: inline;
     gap: 24px;
@@ -186,4 +183,7 @@ background: #F00
     background-repeat: no-repeat;
     background-position: bottom right;
     
+}
+.text-primary {
+    color: #FD6E0A;
 }
